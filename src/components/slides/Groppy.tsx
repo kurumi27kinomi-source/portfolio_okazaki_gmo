@@ -1,4 +1,6 @@
 import { Sparkles, Zap, Bell } from 'lucide-react';
+import groppyDashboard from '../../../images/groppy_image1.png';
+import groppyLatestNews from '../../../images/groppy_image2.png';
 
 export default function Groppy() {
   return (
@@ -19,6 +21,45 @@ export default function Groppy() {
             AIを活用して、インターネット上の情報を収集・要約・通知する個人開発プロジェクト。<br />
             ユーザーがSlackやLINEで『今欲しい情報』を受け取れる仕組みを構想中。
           </p>
+
+          <div className="space-y-3">
+            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+              UI Mock
+            </div>
+            <div className="flex flex-col gap-4 lg:flex-row">
+              <figure className="flex-1 rounded-2xl border border-slate-200 bg-white shadow-md p-4">
+                <figcaption className="mb-3">
+                  <p className="text-sm font-semibold text-slate-800">PCダッシュボード</p>
+                  <p className="text-xs text-emerald-600">トレンドやキーワードを横断可視化</p>
+                </figcaption>
+                <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3">
+                  <img
+                    src={groppyDashboard}
+                    alt="Groppy PCダッシュボード"
+                    className="w-full max-h-48 object-contain"
+                    loading="lazy"
+                  />
+                </div>
+              </figure>
+
+              <figure className="flex-1 rounded-2xl border border-slate-200 bg-white shadow-md p-4">
+                <figcaption className="mb-3">
+                  <p className="text-sm font-semibold text-slate-800">モバイル通知カード</p>
+                  <p className="text-xs text-slate-500">Slack / LINEでサクッと読める要約カード</p>
+                </figcaption>
+                <div className="mx-auto max-w-xs rounded-[28px] border border-slate-100 bg-slate-50/70 p-3">
+                  <div className="rounded-2xl border border-white overflow-hidden">
+                    <img
+                      src={groppyLatestNews}
+                      alt="Groppyモバイルカード"
+                      className="w-full max-h-64 object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
           
           <div className="space-y-3">
             <div className="text-slate-800 text-lg">段階的構成</div>
