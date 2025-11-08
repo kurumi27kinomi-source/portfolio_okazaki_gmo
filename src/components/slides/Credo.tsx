@@ -66,7 +66,7 @@ export default function CredoPage() {
           <br />
           自分も学び、挑戦し、進化し続ける。
           <br />
-          それが、私が目指すべき生き方。
+          それが、私が目指す生き方。
         </p>
       </section>
 
@@ -115,7 +115,7 @@ export default function CredoPage() {
               <p className="text-slate-700 leading-relaxed text-lg">
                 変わらないのは、変わり続けるという覚悟。
                 <br />
-                変化を受け入れ、進化を恐れず、挑戦し続けることが、目指すべき生き方。
+                変化を受け入れ、進化を恐れず、挑戦し続けることが、目指す生き方。
               </p>
             </div>
 

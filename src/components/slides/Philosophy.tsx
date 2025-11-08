@@ -26,7 +26,7 @@ export default function Philosophy() {
               <Sparkles className="h-7 w-7" />
             </div>
             <p className="text-lg leading-relaxed text-slate-700">
-              GMOコネクトの理念「価値あるつながりを提供する」「楽しく働く」に強く共感しています。<br />
+              GMOコネクトの「価値あるつながりを提供する」「楽しく働く」に強く共感しています。<br />
               この2つは、私自身が大切にしてきた「人との信頼」「学び合う文化」と深く通じています。
             </p>
           </div>

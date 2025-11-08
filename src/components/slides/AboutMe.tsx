@@ -17,9 +17,12 @@ export default function AboutMe() {
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-12 shadow-xl border border-slate-100 space-y-8">
           <div className="space-y-6">
             <p className="text-slate-700 text-lg leading-relaxed">
-              設計ら試験まで一貫して携わり、課題解決とチーム全体の生産性向上に取り組んできました。<br/>
+              設計から試験まで一貫して携わり、課題解決とチーム全体の生産性向上に取り組んできました。<br/>
               今後は、技術を“手段”としてビジネス価値を生み出すエンジニアへ。<br/>
-              企画段階から課題の本質を捉え、最適解を導く力を磨き続けます。
+              目の前の課題を超えて、<span className="text-slate-800 font-medium">本当に解決すべき本質</span>を探り、
+              技術だけでなくビジネスの成長に貢献できる形で価値を届けたいと考えています。
+              <br />
+              企画段階から課題の本質を見極め、最適な解決策を導く力を磨き続けています。
             </p>
 
             <p className="text-slate-700 text-lg leading-relaxed">

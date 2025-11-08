@@ -1,6 +1,4 @@
 import { Sparkles, Zap, Bell } from 'lucide-react';
-import groppyDashboard from '../../../images/groppy_image1.png';
-import groppyLatestNews from '../../../images/groppy_image2.png';
 
 export default function Groppy() {
   return (
@@ -15,7 +13,7 @@ export default function Groppy() {
             <p className="text-slate-600 text-lg">AI情報収集・要約プラットフォーム</p>
           </div>
         </div>
-        
+
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-slate-100 space-y-6">
           <p className="text-slate-700 leading-relaxed">
             AIを活用して、インターネット上の情報を収集・要約・通知する個人開発プロジェクト。<br />
@@ -34,7 +32,7 @@ export default function Groppy() {
                 </figcaption>
                 <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3">
                   <img
-                    src={groppyDashboard}
+                    src="/images/groppy_image1.png"
                     alt="Groppy PCダッシュボード"
                     className="w-full max-h-48 object-contain"
                     loading="lazy"
@@ -50,7 +48,7 @@ export default function Groppy() {
                 <div className="mx-auto max-w-xs rounded-[28px] border border-slate-100 bg-slate-50/70 p-3">
                   <div className="rounded-2xl border border-white overflow-hidden">
                     <img
-                      src={groppyLatestNews}
+                      src="/images/groppy_image2.png"
                       alt="Groppyモバイルカード"
                       className="w-full max-h-64 object-contain"
                       loading="lazy"
