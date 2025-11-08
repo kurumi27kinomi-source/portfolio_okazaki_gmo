@@ -17,19 +17,12 @@ export default function AboutMe() {
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-12 shadow-xl border border-slate-100 space-y-8">
           <div className="space-y-6">
             <p className="text-slate-700 text-lg leading-relaxed">
-              これまで、要件定義から設計・実装・運用まで一貫して携わり、
-              技術的な課題解決だけでなく、チーム全体の生産性向上にも取り組んできました。
+              設計ら試験まで一貫して携わり、課題解決とチーム全体の生産性向上に取り組んできました。<br/>
+              今後は、技術を“手段”としてビジネス価値を生み出すエンジニアへ。企画段階から課題の本質を捉え、最適解を導く力を磨き続けます。
             </p>
 
             <p className="text-slate-700 text-lg leading-relaxed">
-              今後は、より経営やサービスの意図を理解したうえで、
-              技術を“手段”としてビジネスに価値を還元できるエンジニアを目指しています。
-              企画段階から関わり、課題の本質を捉え、最適解を導く力を磨き続けます。
-            </p>
-
-            <p className="text-slate-700 text-lg leading-relaxed">
-              チームの枠を超え、仲間の成長を支援しながら、
-              顧客・仲間・家族の幸せが循環する開発環境を築いていきたいと考えています。
+              顧客・仲間・家族の幸せが循環する開発環境を築きながら、共に成長できるチームづくりを目指しています。
             </p>
           </div>
 

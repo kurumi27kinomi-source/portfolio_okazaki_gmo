@@ -24,14 +24,12 @@ export default function FutureVision() {
               技術は目的ではなく<strong>手段</strong>
               。顧客の本質的な課題を解き、事業価値を生み出すことに軸を置く。
               <br />
-              プレイングマネージャーとして、企画・要件・設計からリリースまで一気通貫で導く。
             </p>
 
             <p className="text-slate-700 text-xl leading-relaxed">
               AIは<strong>最適な手段の一つ</strong>
-              。状況に応じて選び、設計意図を明確にし、品質とスピードを両立する。
+              。状況に応じて使い分け、品質とスピードを両立する。
               <br />
-              自分が先に学び、仕組み化して、仲間の挑戦を支える。
             </p>
 
             <p className="text-slate-700 text-xl leading-relaxed">
@@ -39,9 +37,8 @@ export default function FutureVision() {
                 変わらないのは、変わり続けるという覚悟。
               </strong>
               <br />
-              スペシャリストを目指して学びを積み重ね、Giverとして価値を還元する。
-              <br />
-              10年後も誇れる自分であるために、今日の一歩を大切に歩む。
+              学び続け、与え続けるエンジニアとして、誇れる自分であり、家族に誇ってもらえる存在でありたい。
+。
             </p>
           </div>
 

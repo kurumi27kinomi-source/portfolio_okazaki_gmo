@@ -44,7 +44,7 @@ export default function Groppy() {
 
               <figure className="flex-1 rounded-2xl border border-slate-200 bg-white shadow-md p-4">
                 <figcaption className="mb-3">
-                  <p className="text-sm font-semibold text-slate-800">モバイル通知カード</p>
+                  <p className="text-sm font-semibold text-slate-800">要約ニュースボード</p>
                   <p className="text-xs text-slate-500">Slack / LINEでサクッと読める要約カード</p>
                 </figcaption>
                 <div className="mx-auto max-w-xs rounded-[28px] border border-slate-100 bg-slate-50/70 p-3">
@@ -114,7 +114,7 @@ export default function Groppy() {
                 <div className="text-slate-700">スケジュール通知</div>
               </div>
               <p className="text-sm text-slate-600 leading-relaxed">
-                EventBridge → Lambda（Grok要約） → Slack/LINE通知
+                EventBridge → Lambda（Grok要約） → Web/Slack/LINE通知
               </p>
             </div>
           </div>
