@@ -12,12 +12,12 @@ export default function Cover() {
         </div>
         
         <h1 className="mb-6 text-slate-800">
-          岡崎 直也｜AIと人が共に成長するエンジニア
+          岡崎 直也｜技術で人と組織の成長を支えるエンジニア
         </h1>
         
         <div className="inline-block px-8 py-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-emerald-100 shadow-lg">
           <p className="text-slate-700 text-xl">
-            「人とAIと仲間が共に成長する未来をつくりたい。」
+            「技術を手段に、人と組織の課題を解決し、仲間が描くビジョンを支え続ける。」
           </p>
         </div>
         

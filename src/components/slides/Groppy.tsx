@@ -1,4 +1,4 @@
-import { Sparkles, Database, Zap, Bell } from 'lucide-react';
+import { Sparkles, Zap, Bell } from 'lucide-react';
 
 export default function Groppy() {
   return (

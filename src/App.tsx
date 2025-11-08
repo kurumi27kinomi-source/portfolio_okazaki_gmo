@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Cover from './components/slides/Cover';
 import AboutMe from './components/slides/AboutMe';
@@ -22,6 +22,7 @@ const slides = [
 
 export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -48,11 +49,20 @@ export default function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  useEffect(() => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+  }, [currentSlide]);
+
   const CurrentSlideComponent = slides[currentSlide].component;
 
   return (
     <div className="relative w-full h-screen">
-      <div className="absolute inset-0 overflow-y-auto">
+      <div ref={scrollContainerRef} className="absolute inset-0 overflow-y-auto">
         <CurrentSlideComponent />
       </div>
       
