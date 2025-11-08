@@ -18,7 +18,8 @@ export default function AboutMe() {
           <div className="space-y-6">
             <p className="text-slate-700 text-lg leading-relaxed">
               設計ら試験まで一貫して携わり、課題解決とチーム全体の生産性向上に取り組んできました。<br/>
-              今後は、技術を“手段”としてビジネス価値を生み出すエンジニアへ。企画段階から課題の本質を捉え、最適解を導く力を磨き続けます。
+              今後は、技術を“手段”としてビジネス価値を生み出すエンジニアへ。<br/>
+              企画段階から課題の本質を捉え、最適解を導く力を磨き続けます。
             </p>
 
             <p className="text-slate-700 text-lg leading-relaxed">

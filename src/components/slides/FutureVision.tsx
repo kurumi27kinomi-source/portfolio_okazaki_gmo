@@ -38,7 +38,6 @@ export default function FutureVision() {
               </strong>
               <br />
               学び続け、与え続けるエンジニアとして、誇れる自分であり、家族に誇ってもらえる存在でありたい。
-。
             </p>
           </div>
 
